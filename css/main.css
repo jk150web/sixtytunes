@@ -23,6 +23,7 @@ table{
     text-align: center;
     border-collapse: collapse;
     width: 100%;
+    height: auto;
 }
 
 table, th, td {

@@ -1,7 +1,7 @@
 div{
     font-family: 'Press Start 2P', cursive;
     letter-spacing: -1px;
-    font-size: medium;
+    font-size: .95vw;
 }
 
 body{
@@ -9,7 +9,21 @@ body{
     color: white;
     text-decoration: solid;
     text-shadow: black 1px 1px;
-    -webkit-text-stroke: 0.1px black;
+    -webkit-text-stroke: 0.3px black;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dl{
+    color: black;
+}
+
+.dl-button{
+    border: 1px solid black;
+    border-radius: 8px;
 }
 
 .navbar{
@@ -23,13 +37,20 @@ table{
     height: auto;
 }
 
-table, th, td {
+table, td {
     border: 1px solid black;
     background-color: gray;
 }
 
-.th{
-    color: yellow;
+th{
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+th a:link{
+    color: white;
+    font-weight: bold;
 }
 
 .miditable{

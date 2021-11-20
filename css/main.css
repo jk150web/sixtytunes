@@ -1,10 +1,7 @@
-@font-face {
-    font-family: 'Press Start 2P', cursive;
-    src: url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
-}
-
 div{
-    font-family: 'Eight Bit Dragon';
+    font-family: 'Press Start 2P', cursive;
+    letter-spacing: -1px;
+    font-size: medium;
 }
 
 body{

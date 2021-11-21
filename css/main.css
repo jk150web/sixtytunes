@@ -1,7 +1,7 @@
 div{
     font-family: 'Press Start 2P', cursive;
     letter-spacing: -1px;
-    font-size: .95vw;
+    font-size: .90vw;
 }
 
 body{
@@ -18,12 +18,18 @@ body{
 }
 
 .dl{
-    color: black;
+    color: dodgerblue;
+    text-shadow: black 1px 1px;
+    -webkit-text-stroke: 0.3px black;
+    text-decoration: dodgerblue 5px solid underline;
 }
 
 .dl-button{
-    border: 1px solid black;
-    border-radius: 8px;
+    background-color: transparent;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 20px;
 }
 
 .navbar{
@@ -48,7 +54,7 @@ th{
     font-weight: bold;
 }
 
-th a:link{
+th a:link a:visited{
     color: white;
     font-weight: bold;
 }

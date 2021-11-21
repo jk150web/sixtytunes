@@ -17,12 +17,6 @@ body{
     margin-right: auto;
 }
 
-.dl{
-    color: dodgerblue;
-    text-shadow: black 1px 1px;
-    -webkit-text-stroke: 0.3px black;
-    text-decoration: dodgerblue 5px solid underline;
-}
 
 .dl-button{
     background-color: transparent;

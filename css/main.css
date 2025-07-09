@@ -1,7 +1,15 @@
+@font-face {
+    font-family: 'DFGGothic-EB';
+    src: url('DFGothic-EB-WING-RKSJ-H.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 div{
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'DFGGothic-EB';
     letter-spacing: -1px;
-    font-size: .90vw;
 }
 
 body{
@@ -53,18 +61,13 @@ th a:link a:visited{
     font-weight: bold;
 }
 
-.miditable{
-    font-size: 140%;
-}
 
 .genrelists{
-    font-size: 100%;
     text-align: center;
     margin-left: 2%;
 }
 
 .headertitle{
-    font-size: 300%;
     color: white;
 }
 
@@ -75,6 +78,9 @@ th a:link a:visited{
 
 .footer{
     color: white;
-    font-size: 200%;
     background-image: linear-gradient(rgb(0, 0, 255), rgb(0, 0, 100));
+}
+
+a{
+    text-decoration: none;
 }
